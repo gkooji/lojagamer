@@ -14,8 +14,8 @@ const Home = () => {
     { id: 8, titulo: "Jogo-08", preco: "R$ 99,00", imagem: jogoImg },
   ]
   return (
-    <main className="px-[5%] mt-10 mb-16 flex-grow">
-      <h2 className="textoTitulo titulo text-3xl">Produtos em Destaque</h2>
+    <main className="px-[5%] mt-10 mb-16 grow">
+      <h2 className=" titulo text-3xl">Produtos em Destaque</h2>
       <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
         {games.map((game)=>(
           <GameCard key={game.id} titulo={game.titulo} preco={game.preco} imagem={game.imagem}/>
