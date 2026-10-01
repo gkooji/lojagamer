@@ -19,8 +19,8 @@ const App = () => {
           <Route path="/" element={<Login/>}/>
           <Route path="/" element={<Error/>}/>
         </Routes>
+        <Footer/>
       </div>
-      <Footer/>
     </Router>
   )
 }
